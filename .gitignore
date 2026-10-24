@@ -1,0 +1,17 @@
+# Ce que Git ne doit pas suivre dans votre projet.
+
+# --- ce que Maven et IntelliJ refabriquent
+target/
+out/
+*.class
+
+# --- les reglages locaux d'IntelliJ : ils contiennent des chemins propres
+#     a votre machine. IntelliJ les recree a l'ouverture du pom.xml.
+.idea/
+*.iml
+
+# --- les restes de Word et des systemes
+~$*
+.~lock.*
+.DS_Store
+Thumbs.db
